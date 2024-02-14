@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import scusumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-scusumors@deno/mod.js';
+import scusumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-scusumors@v0.2.0-deno/mod.js';
 ```
 
 #### scusumors( N, sum, x, strideX, y, strideY )
@@ -176,7 +176,7 @@ scusumors.ndarray( N, 0.0, x, 2, 1, y, -1, y.length-1 );
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@deno/mod.js';
-import scusumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-scusumors@deno/mod.js';
+import scusumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-scusumors@v0.2.0-deno/mod.js';
 
 var y;
 var x;
