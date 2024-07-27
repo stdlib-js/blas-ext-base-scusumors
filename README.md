@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import scusumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-scusumors@esm/index.mjs';
+import scusumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-scusumors@v0.2.2-esm/index.mjs';
 ```
 
 #### scusumors( N, sum, x, strideX, y, strideY )
@@ -172,7 +172,7 @@ scusumors.ndarray( 4, 0.0, x, 2, 1, y, -1, y.length-1 );
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@esm/index.mjs';
-import scusumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-scusumors@esm/index.mjs';
+import scusumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-scusumors@v0.2.2-esm/index.mjs';
 
 var x = filledarrayBy( 10, 'float32', discreteUniform( 0, 100 ) );
 var y = new Float32Array( x.length );
